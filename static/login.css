@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.picture {
+    position: absolute;
+    left: 255px;
+    top: 140px;
+    width: 400px;
+    height: 400px;
+
+    background-image: url("https://i.pinimg.com/564x/76/f3/91/76f3913a32c80f1843b3970c74ef7ad0.jpg");
+    background-position: center;
+    background-size: cover;
+
+    border: none;
+
+}
+
+.section {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    padding: 1rem 1.5rem;
+    width: 750px;
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 3rem;
+}
+
+.is-cat {
+    color: #dcbb7b !important;
+}
+
+.button.is-cat {
+    background-color: #dcbb7b;
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.button.is-cat.is-outlined {
+    background-color: transparent;
+    border-color: #dcbb7b;
+    color: #dcbb7b !important;
+}
+
+.help {
+    color: gray;
+}
